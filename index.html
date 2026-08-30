@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARSENAL — CS2 Skins</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand-row">
+      <div>
+        <div class="brand">ARSEN<span>AL</span></div>
+        <div class="brand-tagline">CS2 SKIN SHOWCASE — CURATED LOADOUT</div>
+      </div>
+    </div>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="under100">Best Under $100</button>
+      <button class="tab-btn" data-tab="bundle">$100 Bundle</button>
+    </div>
+  </div>
+</header>
+
+<div class="controls-bar" id="controlsBar">
+  <div class="search-wrap">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" class="search-input" id="searchInput" placeholder="Search by skin, weapon, or type...">
+  </div>
+  <div class="sort-group">
+    <span class="sort-label">Sort by</span>
+    <select class="sort-select" id="sortSelect">
+      <option value="type">Type</option>
+      <option value="weapon">Weapon</option>
+      <option value="price">Price</option>
+      <option value="wear">Wear Rating</option>
+    </select>
+    <button class="dir-btn" id="dirBtn" title="Sort direction">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+    </button>
+    <span class="result-count" id="resultCount"></span>
+  </div>
+</div>
+
+<main class="main-wrap" id="under100View"><div class="empty-state">Loading skins...</div></main>
+
+<main class="main-wrap" id="bundleView" style="display:none;">
+  <div class="construction-wrap">
+    <div class="crate-icon">
+      <svg viewBox="0 0 64 64" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 20 L32 8 L56 20 L56 46 L32 58 L8 46 Z"/>
+        <path d="M8 20 L32 32 L56 20"/>
+        <path d="M32 32 L32 58"/>
+      </svg>
+      <div class="scan-line"></div>
+    </div>
+    <div class="construction-title">CASE LOCKED</div>
+    <div class="construction-sub">The "$100 Bundle" section is still being put together — curated skin sets will show up here once ready.</div>
+    <div class="construction-meta">In development</div>
+  </div>
+</main>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="carousel-shell">
+    <div class="peek left-peek" id="peekLeft"></div>
+    <div class="modal-window" id="modalWindow">
+      <button class="modal-close" id="modalClose">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="modal-left">
+        <div class="modal-image" id="modalImage">
+          <button class="nav-arrow left" id="arrowLeft" style="display:none;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button class="nav-arrow right" id="arrowRight" style="display:none;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <div class="modal-thumbs" id="modalThumbs"></div>
+      </div>
+      <div class="modal-right" id="modalRight"></div>
+    </div>
+    <div class="peek right-peek" id="peekRight"></div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

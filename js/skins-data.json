@@ -1,0 +1,779 @@
+[
+  {
+    "type": "Rifles",
+    "weapon": "AK-47",
+    "weaponSlug": "ak-47",
+    "skins": [
+      {
+        "name": "StatTrak™ AK-47 | Legion of Anubis",
+        "price": 80.16,
+        "pattern": 62,
+        "wear": 0.178216964,
+        "wearDisplay": "0,178216964",
+        "nametag": null,
+        "desc": "Exterior: Field-Tested\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nStatTrak™ Confirmed Kills: 134\n*Stats for this item will reset when used in Steam Trading or Community Market\n \nPowerful and reliable, the AK-47 is one of the most popular assault rifles in the world. It is most deadly in short, controlled bursts of fire. A custom paint job featuring Egyptian gods Anubis and Ra, representing the balance between life and death, has been applied.\n\nMay he tip the scales in your favor\n \nThe Fracture Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G180720BF073004?price_max=400000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&accessory_CSGO_Tool_Keychain=%24any%24&appid=730&sort=0&dir=1&detail=535516231925541657",
+        "img": "img/ak-47/stattraktm-ak-47-legion-of-anubis.png",
+        "skinSlug": "stattraktm-ak-47-legion-of-anubis",
+        "detailImg": "screens/ak-47/stattraktm-ak-47-legion-of-anubis.png"
+      }
+    ]
+  },
+  {
+    "type": "Rifles",
+    "weapon": "M4A4",
+    "weaponSlug": "m4a4",
+    "skins": [
+      {
+        "name": "M4A4 | 龍王 (Dragon King)",
+        "price": 44.84,
+        "pattern": 19,
+        "wear": 0.104258418,
+        "wearDisplay": "0,104258418",
+        "nametag": null,
+        "desc": "Exterior: Minimal Wear\n \nMore accurate but less damaging than its AK-47 counterpart, the M4A4 is the full-auto assault rifle of choice for CTs. It has been custom painted with the image of a dragon in red and blue.\n\nA weapon worthy of The Monkey King himself - Booth, Arms Dealer\n \nThe Chroma Collection",
+        "exterior": "Minimal Wear",
+        "link": "https://steamcommunity.com/market/listings/730/G18102090033004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Keychain=%24any%24&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=1&detail=538896468528722626",
+        "img": "img/m4a4/m4a4-龍王-dragon-king.png",
+        "skinSlug": "m4a4-龍王-dragon-king",
+        "detailImg": "screens/m4a4/m4a4-龍王-dragon-king.png"
+      }
+    ]
+  },
+  {
+    "type": "Rifles",
+    "weapon": "M4A1-S",
+    "weaponSlug": "m4a1-s",
+    "skins": [
+      {
+        "name": "M4A1-S | Golden Coil",
+        "price": 77.16,
+        "pattern": 977,
+        "wear": 0.438622564,
+        "wearDisplay": "0,438622564",
+        "nametag": null,
+        "desc": "Exterior: Well-Worn\n \nWith a smaller magazine than its unmuffled counterpart, the silenced M4A1 provides quieter shots with less recoil and better accuracy. It has been painted with a hydrographic of an attacking snake.\n\nThe viper can strike from anywhere\n \nThe Shadow Collection",
+        "exterior": "Well-Worn",
+        "link": "https://steamcommunity.com/market/listings/730/G183C20F1033004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Keychain=%24any%24&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=1&detail=555784967119772941",
+        "img": "img/m4a1-s/m4a1-s-golden-coil.png",
+        "skinSlug": "m4a1-s-golden-coil",
+        "detailImg": "screens/m4a1-s/m4a1-s-golden-coil.png"
+      }
+    ]
+  },
+  {
+    "type": "Rifles",
+    "weapon": "FAMAS",
+    "weaponSlug": "famas",
+    "skins": [
+      {
+        "name": "StatTrak™ FAMAS | Mecha Industries",
+        "price": 64.28,
+        "pattern": 41,
+        "wear": 0.223526597,
+        "wearDisplay": "0,223526597",
+        "nametag": null,
+        "desc": "Exterior: Field-Tested\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nThis item tracks Confirmed Kills.\n \nA cheap option for cash-strapped players, the FAMAS effectively fills the niche between more expensive rifles and the less-effective SMGs. It's stark white and black design make it feel like it came from a sci-fi show.\n\nSpikey blue hair and robot companion not included\n \nThe Glove Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G180A20F2043004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=1&detail=545649965349385968",
+        "img": "img/famas/stattraktm-famas-mecha-industries.png",
+        "skinSlug": "stattraktm-famas-mecha-industries",
+        "detailImg": "screens/famas/stattraktm-famas-mecha-industries.png"
+      }
+    ]
+  },
+  {
+    "type": "Rifles",
+    "weapon": "Galil AR",
+    "weaponSlug": "galil-ar",
+    "skins": [
+      {
+        "name": "StatTrak™ Galil AR | Orange DDPAT",
+        "price": 55.81,
+        "pattern": 744,
+        "wear": 0.169665888,
+        "wearDisplay": "0,169665888",
+        "nametag": null,
+        "desc": "Exterior: Field-Tested\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nStatTrak™ Confirmed Kills: 2\n*Stats for this item will reset when used in Steam Trading or Community Market\n \nA less expensive option among the terrorist-exclusive assault rifles, the Galil AR is a serviceable weapon in medium to long-range combat. It has been painted using a Digital Disruptive Pattern (DDPAT) hydrographic.\n\nBy the time you're close enough to notice the pixels it's already too late\n \nThe eSports 2013 Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G180D20533004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=1&detail=457830685739579319",
+        "img": "img/galil-ar/stattraktm-galil-ar-orange-ddpat.png",
+        "skinSlug": "stattraktm-galil-ar-orange-ddpat",
+        "detailImg": "screens/galil-ar/stattraktm-galil-ar-orange-ddpat.png"
+      }
+    ]
+  },
+  {
+    "type": "Rifles",
+    "weapon": "AUG",
+    "weaponSlug": "aug",
+    "skins": [
+      {
+        "name": "AUG | Bengal Tiger",
+        "price": 26.47,
+        "pattern": 341,
+        "wear": 0.207152396,
+        "wearDisplay": "0,207152396",
+        "nametag": null,
+        "desc": "Exterior: Field-Tested\n \nPowerful and accurate, the AUG scoped assault rifle compensates for its long reload times with low spread and a high rate of fire. It has been painted using a tiger stripe hydrographic.\n \nThe eSports 2014 Summer Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G180820093004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=1&detail=553531264705014332",
+        "img": "img/aug/aug-bengal-tiger.png",
+        "skinSlug": "aug-bengal-tiger",
+        "detailImg": "screens/aug/aug-bengal-tiger.png"
+      }
+    ]
+  },
+  {
+    "type": "Rifles",
+    "weapon": "SG 553",
+    "weaponSlug": "sg-553",
+    "skins": [
+      {
+        "name": "SG 553 | Cyrex",
+        "price": 58.1,
+        "pattern": 182,
+        "wear": 0.27215308,
+        "wearDisplay": "0,27215308",
+        "nametag": null,
+        "desc": "Exterior: Field-Tested\n \nThe terrorist-exclusive SG553 is a premium scoped alternative to the AK47 for effective long-range engagement. It has been custom painted with a high-tech design in black, white, and red.\n\nSebastien is coming for me Valeria... we don't have much time - Chase Turner, Coalition Defector\n \nThe Falchion Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G182720E7033004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=1&detail=622199743523242311",
+        "img": "img/sg-553/sg-553-cyrex.png",
+        "skinSlug": "sg-553-cyrex",
+        "detailImg": "screens/sg-553/sg-553-cyrex.png"
+      }
+    ]
+  },
+  {
+    "type": "Snipers",
+    "weapon": "AWP",
+    "weaponSlug": "awp",
+    "skins": [
+      {
+        "name": "AWP | Wildfire",
+        "price": 90.36,
+        "pattern": 913,
+        "wear": 0.16128087,
+        "wearDisplay": "0,16128087",
+        "nametag": null,
+        "desc": "Exterior: Field-Tested\n \nAttached souvenir charm features a highlight from the Grand Final match between FURIA and Falcons at the IEM Cologne 2026 CS2 Major Championship.\n \nm0NESY wins a 1v2 post-plant on Anubis, baiting FURIA's retake.\n \nHigh risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. The Operation Wildfire logo has been hand painted over a black and red base.\n\nThe nail that sticks out gets the hammer\n \nThe CS20 Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G18092095073004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=1&assetproperty=CAIVKVwPPh1cj8I%2B&detail=535518135126596547",
+        "img": "img/awp/awp-wildfire.png",
+        "skinSlug": "awp-wildfire",
+        "detailImg": "screens/awp/awp-wildfire.png"
+      }
+    ]
+  },
+  {
+    "type": "Snipers",
+    "weapon": "SSG 08",
+    "weaponSlug": "ssg-08",
+    "skins": [
+      {
+        "name": "StatTrak™ SSG 08 | Parallax",
+        "price": 61.4,
+        "pattern": 250,
+        "wear": 0.069437727,
+        "wearDisplay": "0,069437727",
+        "nametag": null,
+        "desc": "Exterior: Factory New\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nStatTrak™ Confirmed Kills: 2\n*Stats for this item will reset when used in Steam Trading or Community Market\n \nThe SSG08 bolt-action is a low-damage but very cost-effective sniper rifle, making it a smart choice for early-round long-range marksmanship. The colors in this custom paint job were applied in offset positions, leading to an eye-popping look.\n\nShoot twice, kill once\n \nThe Operation Broken Fang Collection",
+        "exterior": "Factory New",
+        "link": "https://steamcommunity.com/market/listings/730/G182820CD083004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=1&assetproperty=CAIVAAAAAB1cj8I%2B&detail=536644668712072975",
+        "img": "img/ssg-08/stattraktm-ssg-08-parallax.png",
+        "skinSlug": "stattraktm-ssg-08-parallax",
+        "detailImg": "screens/ssg-08/stattraktm-ssg-08-parallax.png"
+      }
+    ]
+  },
+  {
+    "type": "Snipers",
+    "weapon": "SCAR-20",
+    "weaponSlug": "scar-20",
+    "skins": [
+      {
+        "name": "StatTrak™ SCAR-20 | Bloodsport",
+        "price": 81.58,
+        "pattern": 925,
+        "wear": 0.062225584,
+        "wearDisplay": "0,062225584",
+        "nametag": null,
+        "desc": "Exterior: Factory New\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nStatTrak™ Confirmed Kills: 9\n*Stats for this item will reset when used in Steam Trading or Community Market\n \nThe SCAR-20 is a semi-automatic sniper rifle that trades a high rate of fire and powerful long-distance damage for sluggish movement speed and big price tag. It has been covered in white logo decals over a red and black hydrographic.\n\nCT-side sponsored by…\n \nThe Gamma Collection",
+        "exterior": "Factory New",
+        "link": "https://steamcommunity.com/market/listings/730/G182620D5043004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=1&detail=519751912254412362",
+        "img": "img/scar-20/stattraktm-scar-20-bloodsport.png",
+        "skinSlug": "stattraktm-scar-20-bloodsport",
+        "detailImg": "screens/scar-20/stattraktm-scar-20-bloodsport.png"
+      }
+    ]
+  },
+  {
+    "type": "Snipers",
+    "weapon": "G3SG1",
+    "weaponSlug": "g3sg1",
+    "skins": [
+      {
+        "name": "G3SG1 | The Executioner",
+        "price": 27.3,
+        "pattern": 918,
+        "wear": 0.407464445,
+        "wearDisplay": "0,407464445",
+        "nametag": null,
+        "desc": "Exterior: Well-Worn\n \nThe pricy G3SG1 lowers movement speed considerably but compensates with a higher rate of fire than other sniper rifles. It has been hand painted with a gruesome display of bone.\n\nI always take a trophy - Javier Alviso, Fist of the Phoenix\n \nThe Revolver Case Collection",
+        "exterior": "Well-Worn",
+        "link": "https://steamcommunity.com/market/listings/730/G180B20FF033004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=1&detail=543399434467614007",
+        "img": "img/g3sg1/g3sg1-the-executioner.png",
+        "skinSlug": "g3sg1-the-executioner",
+        "detailImg": "screens/g3sg1/g3sg1-the-executioner.png"
+      }
+    ]
+  },
+  {
+    "type": "Pistols",
+    "weapon": "USP-S",
+    "weaponSlug": "usp-s",
+    "skins": [
+      {
+        "name": "USP-S | Printstream",
+        "price": 73.77,
+        "pattern": 817,
+        "wear": 0.244988218,
+        "wearDisplay": "0,244988218",
+        "nametag": null,
+        "desc": "Exterior: Field-Tested\n \nA fan favorite from Counter-Strike Source, the Silenced USP Pistol has a detachable silencer that gives shots less recoil while suppressing attention-getting noise. It has been custom painted with a stark black and white design and finished with pearlescent highlights.\n\nWHITE_1; BLACK_1; PEARLESCENT_1; SILENCED_1; PISTOL_1;\n \nThe Recoil Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G183D20F6083004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=1&detail=529886732400853964",
+        "img": "img/usp-s/usp-s-printstream.png",
+        "skinSlug": "usp-s-printstream",
+        "detailImg": "screens/usp-s/usp-s-printstream.png"
+      }
+    ]
+  },
+  {
+    "type": "Pistols",
+    "weapon": "Glock-18",
+    "weaponSlug": "glock-18",
+    "skins": [
+      {
+        "name": "Glock-18 | Shinobu",
+        "price": 50.89,
+        "pattern": 366,
+        "wear": 0.131452009,
+        "wearDisplay": "0,131452009",
+        "nametag": "瞳孔与心跳的距离，在与你对视时清零",
+        "desc": "Exterior: Minimal Wear\n \nThe Glock 18 is a serviceable first-round pistol that works best against unarmored opponents and is capable of firing three-round bursts. It has been custom painted with a woman on the slide wearing SR Tech \"Premium\" contact lenses.\n\n\"SR Tech—helping you stay focused one engagement at a time\"\n \nThe Fever Collection",
+        "exterior": "Minimal Wear",
+        "link": "https://steamcommunity.com/market/listings/730/G180420B8093004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=1&assetproperty=CAIVAAAAAB2amRk%2B&detail=550149760833992860",
+        "img": "img/glock-18/glock-18-shinobu.png",
+        "skinSlug": "glock-18-shinobu",
+        "detailImg": "screens/glock-18/glock-18-shinobu.png"
+      }
+    ]
+  },
+  {
+    "type": "Pistols",
+    "weapon": "Desert Eagle",
+    "weaponSlug": "desert-eagle",
+    "skins": [
+      {
+        "name": "Desert Eagle | Conspiracy",
+        "price": 79.14,
+        "pattern": 585,
+        "wear": 0.1030486,
+        "wearDisplay": "0,1030486",
+        "nametag": null,
+        "desc": "Exterior: Minimal Wear\n \nAs expensive as it is powerful, the Desert Eagle is an iconic pistol that is difficult to master but surprisingly accurate at long range. It has been painted with dark, metallic paint and pale yellow accents.\n \nThe Breakout Collection",
+        "exterior": "Minimal Wear",
+        "link": "https://steamcommunity.com/market/listings/730/G180120DF023004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&accessory_CSGO_Tool_Keychain=%24any%24&appid=730&sort=0&dir=1&assetproperty=CAIVAAAAAB0pXA8%2B&detail=542268461601269006",
+        "img": "img/desert-eagle/desert-eagle-conspiracy.png",
+        "skinSlug": "desert-eagle-conspiracy",
+        "detailImg": "screens/desert-eagle/desert-eagle-conspiracy.png"
+      }
+    ]
+  },
+  {
+    "type": "Pistols",
+    "weapon": "P250",
+    "weaponSlug": "p250",
+    "skins": [
+      {
+        "name": "P250 | Bengal Tiger",
+        "price": 42.23,
+        "pattern": 118,
+        "wear": 0.173704028,
+        "wearDisplay": "0,173704028",
+        "nametag": null,
+        "desc": "Exterior: Field-Tested\n \nA low-recoil firearm with a high rate of fire, the P250 is a relatively inexpensive choice against armored opponents. It has been painted using a tiger stripe hydrographic.\n \nThe Havoc Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G18242086083004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=0&detail=635710542400629373",
+        "img": "img/p250/p250-bengal-tiger.png",
+        "skinSlug": "p250-bengal-tiger",
+        "detailImg": "screens/p250/p250-bengal-tiger.png"
+      }
+    ]
+  },
+  {
+    "type": "Pistols",
+    "weapon": "Tec-9",
+    "weaponSlug": "tec-9",
+    "skins": [
+      {
+        "name": "StatTrak™ Tec-9 | Fuel Injector",
+        "price": 44.25,
+        "pattern": 28,
+        "wear": 0.129456267,
+        "wearDisplay": "0,129456267",
+        "nametag": null,
+        "desc": "Exterior: Minimal Wear\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nStatTrak™ Confirmed Kills: 300\n*Stats for this item will reset when used in Steam Trading or Community Market\n \nAn ideal pistol for the Terrorist on the move, the Tec-9 is lethal in close quarters and features a high magazine capacity. The body has been painted yellow and the magazine has been given a belt engine hydrographic. A hand-stitched leather grip completes this Seattle classic.\n\nPit crew not included\n \nThe Gamma 2 Collection",
+        "exterior": "Minimal Wear",
+        "link": "https://steamcommunity.com/market/listings/730/G181E20E6043004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&accessory_CSGO_Tool_Keychain=%24any%24&appid=730&sort=0&dir=0&assetproperty=CAIVAAAAAB2amRk%2B&detail=523132880473644000",
+        "img": "img/tec-9/stattraktm-tec-9-fuel-injector.png",
+        "skinSlug": "stattraktm-tec-9-fuel-injector",
+        "detailImg": "screens/tec-9/stattraktm-tec-9-fuel-injector.png"
+      }
+    ]
+  },
+  {
+    "type": "Pistols",
+    "weapon": "Five-SeveN",
+    "weaponSlug": "five-seven",
+    "skins": [
+      {
+        "name": "Five-SeveN | Angry Mob",
+        "price": 80.57,
+        "pattern": 878,
+        "wear": 0.213233352,
+        "wearDisplay": "0,213233352",
+        "nametag": null,
+        "desc": "Exterior: Field-Tested\n \nHighly accurate and armor-piercing, the pricy Five-Seven is a slow-loader that compensates with a generous 20-round magazine and forgiving recoil. A brightly colored paint job inspired by street art has been applied.\n\n\"Inside voices, please\"\n \nThe Prisma Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G180320C5063004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=0&detail=540021734743001364",
+        "img": "img/five-seven/five-seven-angry-mob.png",
+        "skinSlug": "five-seven-angry-mob",
+        "detailImg": "screens/five-seven/five-seven-angry-mob.png"
+      }
+    ]
+  },
+  {
+    "type": "Pistols",
+    "weapon": "CZ75-Auto",
+    "weaponSlug": "cz75-auto",
+    "skins": [
+      {
+        "name": "CZ75-Auto | The Fuschia Is Now",
+        "price": 69.08,
+        "pattern": 758,
+        "wear": 0.069014356,
+        "wearDisplay": "0,069014356",
+        "nametag": "Back To The Fuschia",
+        "desc": "Exterior: Factory New\n \nA fully automatic variant of the CZ75, the CZ75-Auto is the ideal short-term choice for turning the tables and gaining your opponents weapon. But with very little ammo in the magazine, strong trigger discipline is required. It has been painted with a chrome base coat and candied in transparent fuschia and charcoal anodized effect paint.\n \nThe Arms Deal 3 Collection",
+        "exterior": "Factory New",
+        "link": "https://steamcommunity.com/market/listings/730/G183F208D023004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=0&detail=541147634649794179",
+        "img": "img/cz75-auto/cz75-auto-the-fuschia-is-now.png",
+        "skinSlug": "cz75-auto-the-fuschia-is-now",
+        "detailImg": "screens/cz75-auto/cz75-auto-the-fuschia-is-now.png"
+      }
+    ]
+  },
+  {
+    "type": "Pistols",
+    "weapon": "R8 Revolver",
+    "weaponSlug": "r8-revolver",
+    "skins": [
+      {
+        "name": "StatTrak™ R8 Revolver | Llama Cannon",
+        "price": 23.03,
+        "pattern": 609,
+        "wear": 0.216124997,
+        "wearDisplay": "0,216124997",
+        "nametag": null,
+        "desc": "Exterior: Field-Tested\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nStatTrak™ Confirmed Kills: 509\n*Stats for this item will reset when used in Steam Trading or Community Market\n \nThe R8 Revolver delivers a highly accurate and powerful round at the expense of a lengthy trigger-pull. Firing rapidly by fanning the hammer may be the best option when point-blank stopping power is required. Its ivory handle is paired with ornate, engraved flourishes on blue metalwork.\n\nPull the lever\n \nThe Spectrum 2 Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G184020AB053004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=0&detail=531014535527634330",
+        "img": "img/r8-revolver/stattraktm-r8-revolver-llama-cannon.png",
+        "skinSlug": "stattraktm-r8-revolver-llama-cannon",
+        "detailImg": "screens/r8-revolver/stattraktm-r8-revolver-llama-cannon.png"
+      }
+    ]
+  },
+  {
+    "type": "Pistols",
+    "weapon": "P2000",
+    "weaponSlug": "p2000",
+    "skins": [
+      {
+        "name": "\nStatTrak™ P2000 | Imperial Dragon",
+        "price": 23.03,
+        "pattern": 675,
+        "wear": 0.354921103,
+        "wearDisplay": "0,354921103",
+        "nametag": null,
+        "desc": "Exterior: Field-Tested\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nThis item tracks Confirmed Kills.\n \nAccurate and controllable, the German-made P2000 is a serviceable first-round pistol that works best against unarmored opponents. It has custom painted with the motif of a dragon using red metallic paints.\n\nLook to the West\n \nThe Gamma Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G182020CF043004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&category_Quality=strange&appid=730&sort=0&dir=0&assetproperty=CAIVAAAAAB1cj8I%2B&detail=493856755104710936",
+        "img": "img/p2000/stattraktm-p2000-imperial-dragon.png",
+        "skinSlug": "stattraktm-p2000-imperial-dragon",
+        "detailImg": "screens/p2000/stattraktm-p2000-imperial-dragon.png"
+      }
+    ]
+  },
+  {
+    "type": "Pistols",
+    "weapon": "Dual Berettas",
+    "weaponSlug": "dual-berettas",
+    "skins": [
+      {
+        "name": "Dual Berettas | Hemoglobin",
+        "price": 45.06,
+        "pattern": 124,
+        "wear": 0.006607996,
+        "wearDisplay": "0,006607996",
+        "nametag": null,
+        "desc": "Exterior: Factory New\n \nFiring two large-mag Berettas at once will lower accuracy and increase load times. On the bright side, you'll get to fire two large-mag Berettas at once. It has been painted using a transparent red abstract hydrographic over a metallic base coat.\n \nThe Arms Deal 2 Collection",
+        "exterior": "Factory New",
+        "link": "https://steamcommunity.com/market/listings/730/G180220DC013004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=0&detail=528761466787722364",
+        "img": "img/dual-berettas/dual-berettas-hemoglobin.png",
+        "skinSlug": "dual-berettas-hemoglobin",
+        "detailImg": "screens/dual-berettas/dual-berettas-hemoglobin.png"
+      }
+    ]
+  },
+  {
+    "type": "SMGs",
+    "weapon": "MP9",
+    "weaponSlug": "mp9",
+    "skins": [
+      {
+        "name": "MP9 | Latte Rush",
+        "price": 46.25,
+        "pattern": 496,
+        "wear": 0.13989532,
+        "wearDisplay": "0,13989532",
+        "nametag": null,
+        "desc": "Exterior: Minimal Wear\n \nAttached souvenir charm features a highlight from the Quarterfinal match between Natus Vincere and Vitality at the BLAST.tv Austin 2025 CS2 Major Championship.\n \nA spray transfer from flameZ nets him a double kill, helping Vitality open up the A-site.\n \nManufactured in Switzerland, the cutting-edge MP9 SMG is an ergonomic polymer weapon favored by private security firms. It has been custom painted to resemble the \"Latte\" drum found on Train's B site.\n\nStart your morning right\n \nThe Train 2025 Collection",
+        "exterior": "Minimal Wear",
+        "link": "https://steamcommunity.com/market/listings/730/G182220BB093004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=0&assetproperty=CAIVAAAAAB2amRk%2B&detail=520881080646369818",
+        "img": "img/mp9/mp9-latte-rush.png",
+        "skinSlug": "mp9-latte-rush",
+        "detailImg": "screens/mp9/mp9-latte-rush.png"
+      }
+    ]
+  },
+  {
+    "type": "SMGs",
+    "weapon": "MAC-10",
+    "weaponSlug": "mac-10",
+    "skins": [
+      {
+        "name": "\nStatTrak™ MAC-10 | Disco Tech",
+        "price": 42.41,
+        "pattern": 880,
+        "wear": 0.134028912,
+        "wearDisplay": "0,134028912",
+        "nametag": "冲点就是要狂",
+        "desc": "Exterior: Minimal Wear\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nStatTrak™ Confirmed Kills: 588\n*Stats for this item will reset when used in Steam Trading or Community Market\n \nEssentially a box that bullets come out of, the MAC-10 SMG boasts a high rate of fire, with poor spread accuracy and high recoil as trade-offs. It has been custom painted using a pearlescent finish to resemble holographic self-adhesive vinyl. Depending on the light its appearance changes.\n\nWatch when you point that thing\n \nThe Prisma 2 Collection",
+        "exterior": "Minimal Wear",
+        "link": "https://steamcommunity.com/market/listings/730/G181120B3073004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&category_Quality=strange&appid=730&sort=0&dir=0&assetproperty=CAIVAAAAAB0pXA8%2B&detail=644716473216351401",
+        "img": "img/mac-10/stattraktm-mac-10-disco-tech.png",
+        "skinSlug": "stattraktm-mac-10-disco-tech",
+        "detailImg": "screens/mac-10/stattraktm-mac-10-disco-tech.png"
+      }
+    ]
+  },
+  {
+    "type": "SMGs",
+    "weapon": "MP7",
+    "weaponSlug": "mp7",
+    "skins": [
+      {
+        "name": "MP7 | Whiteout",
+        "price": 86.32,
+        "pattern": 495,
+        "wear": 0.354590327,
+        "wearDisplay": "0,354590327",
+        "nametag": null,
+        "desc": "Exterior: Field-Tested\n \nVersatile but expensive, the German-made MP7 SMG is the perfect choice for high-impact close-range combat. It is spray-painted all white.\n\nIt looks pure, but looks can be deceiving\n \nThe Office Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G182120663004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=0&detail=510738192157564546",
+        "img": "img/mp7/mp7-whiteout.png",
+        "skinSlug": "mp7-whiteout",
+        "detailImg": "screens/mp7/mp7-whiteout.png"
+      }
+    ]
+  },
+  {
+    "type": "SMGs",
+    "weapon": "UMP-45",
+    "weaponSlug": "ump-45",
+    "skins": [
+      {
+        "name": "StatTrak™ UMP-45 | Neo-Noir",
+        "price": 96.57,
+        "pattern": 807,
+        "wear": 0.063411877,
+        "wearDisplay": "0,063411877",
+        "nametag": null,
+        "desc": "Exterior: Factory New\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nStatTrak™ Confirmed Kills: 37\n*Stats for this item will reset when used in Steam Trading or Community Market\n \nThe misunderstood middle child of the SMG family, the UMP45's small magazine is the only drawback to an otherwise versatile close-quarters automatic. It has been custom painted with a stylized blue-magenta woman over a grayscale background.\n\n\"Blade in hand, she decided it was time to take a stand\"\n \nThe Gallery Collection",
+        "exterior": "Factory New",
+        "link": "https://steamcommunity.com/market/listings/730/G18182083013004?price_max=440000&price_currency=18&category_Quality=strange&category_Exterior=WearCategory0&appid=730&sort=1&dir=0&propertyid=2&detail=649219439037754574",
+        "img": "img/ump-45/stattraktm-ump-45-neo-noir.png",
+        "skinSlug": "stattraktm-ump-45-neo-noir",
+        "detailImg": "screens/ump-45/stattraktm-ump-45-neo-noir.png"
+      }
+    ]
+  },
+  {
+    "type": "SMGs",
+    "weapon": "P90",
+    "weaponSlug": "p90",
+    "skins": [
+      {
+        "name": "\nStatTrak™ P90 | Shallow Grave",
+        "price": 34.55,
+        "pattern": 41,
+        "wear": 0.294143379,
+        "wearDisplay": "0,294143379",
+        "nametag": null,
+        "desc": "Exterior: Field-Tested\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nStatTrak™ Confirmed Kills: 127\n*Stats for this item will reset when used in Steam Trading or Community Market\n \nEasily recognizable for its unique bullpup design, the P90 is a great weapon to shoot on the move due to its high-capacity magazine and low recoil. The grips have been painted to resemble rune stones, and a hydrographic of a skeleton has been applied to the stock.\n\nWith the amount of bodies you're racking up, who has time to dig?\n \nThe Glove Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G181320FC043004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=0&assetproperty=CAIVmpkZPh1cj8I%2B&detail=626702074682028972",
+        "img": "img/p90/stattraktm-p90-shallow-grave.png",
+        "skinSlug": "stattraktm-p90-shallow-grave",
+        "detailImg": "screens/p90/stattraktm-p90-shallow-grave.png"
+      }
+    ]
+  },
+  {
+    "type": "SMGs",
+    "weapon": "PP-Bizon",
+    "weaponSlug": "pp-bizon",
+    "skins": [
+      {
+        "name": "PP-Bizon | High Roller",
+        "price": 37.07,
+        "pattern": 25,
+        "wear": 0.182163045,
+        "wearDisplay": "0,182163045",
+        "nametag": "The Balatro Blaster",
+        "desc": "Exterior: Field-Tested\n \nThe Bizon SMG is low-damage, but offers a uniquely designed high-capacity drum magazine that reloads quickly. It has been custom painted with poker chips, dice, and a royal flush over a red base.\n\nAll in\n \nThe Spectrum 2 Collection",
+        "exterior": "Field-Tested",
+        "link": "https://steamcommunity.com/market/listings/730/G181A20A4053004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Keychain=%24any%24&appid=730&sort=0&dir=0&detail=516367691466753182",
+        "img": "img/pp-bizon/pp-bizon-high-roller.png",
+        "skinSlug": "pp-bizon-high-roller",
+        "detailImg": "screens/pp-bizon/pp-bizon-high-roller.png"
+      }
+    ]
+  },
+  {
+    "type": "SMGs",
+    "weapon": "MP5-SD",
+    "weaponSlug": "mp5-sd",
+    "skins": [
+      {
+        "name": "StatTrak™ MP5-SD | Phosphor",
+        "price": 40.23,
+        "pattern": 519,
+        "wear": 0.119584419,
+        "wearDisplay": "0,119584419",
+        "nametag": null,
+        "desc": "Exterior: Minimal Wear\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nStatTrak™ Confirmed Kills: 169\n*Stats for this item will reset when used in Steam Trading or Community Market\n \nOften imitated but never equaled, the iconic MP5 is perhaps the most versatile and popular SMG in the world. This SD variant features an integrated silencer, making an already formidable weapon whisper-quiet. It has been custom painted by dripping neon pink, green, and teal paint onto its dark base.\n\nStand out from the crowd\n \nThe Danger Zone Collection",
+        "exterior": "Minimal Wear",
+        "link": "https://steamcommunity.com/market/listings/730/G181720AA063004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&category_Quality=strange&category_Exterior=WearCategory1&appid=730&sort=0&dir=0&detail=541148268346316060",
+        "img": "img/mp5-sd/stattraktm-mp5-sd-phosphor.png",
+        "skinSlug": "stattraktm-mp5-sd-phosphor",
+        "detailImg": "screens/mp5-sd/stattraktm-mp5-sd-phosphor.png"
+      }
+    ]
+  },
+  {
+    "type": "Shotguns",
+    "weapon": "Nova",
+    "weaponSlug": "nova",
+    "skins": [
+      {
+        "name": "StatTrak™ Nova | Hyper Beast",
+        "price": 69.75,
+        "pattern": 730,
+        "wear": 0.147367746,
+        "wearDisplay": "0,147367746",
+        "nametag": null,
+        "desc": "Exterior: Minimal Wear\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nStatTrak™ Confirmed Kills: 372\n*Stats for this item will reset when used in Steam Trading or Community Market\n \nThe Nova's rock-bottom price tag makes it a great ambush weapon for a cash-strapped team. It has been custom painted with a beastly creature in psychedelic colors.\n\nThey call you The Oni, right? Such a scary name for such a sad man... – Elliot Kingsman, Mercenary\n \nThe Wildfire Collection",
+        "exterior": "Minimal Wear",
+        "link": "https://steamcommunity.com/market/listings/730/G18232099043004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&category_Quality=strange&appid=730&sort=0&dir=0&assetproperty=CAIVAAAAAB1cj8I%2B&detail=652597772546753774",
+        "img": "img/nova/stattraktm-nova-hyper-beast.png",
+        "skinSlug": "stattraktm-nova-hyper-beast",
+        "detailImg": "screens/nova/stattraktm-nova-hyper-beast.png"
+      }
+    ]
+  },
+  {
+    "type": "Shotguns",
+    "weapon": "XM1014",
+    "weaponSlug": "xm1014",
+    "skins": [
+      {
+        "name": "StatTrak™ XM1014 | XOXO",
+        "price": 79.81,
+        "pattern": 15,
+        "wear": 0.061571199,
+        "wearDisplay": "0,061571199",
+        "nametag": null,
+        "desc": "Exterior: Factory New\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nStatTrak™ Confirmed Kills: 39\n*Stats for this item will reset when used in Steam Trading or Community Market\n \nThe XM1014 is a powerful fully automatic shotgun that justifies its heftier price tag with the ability to paint a room with lead fast. A vividly colored, punk-inspired pattern has been applied.\n\nYeah, right…\n \nThe Snakebite Collection",
+        "exterior": "Factory New",
+        "link": "https://steamcommunity.com/market/listings/730/G18192096083004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&category_Quality=strange&appid=730&sort=0&dir=0&assetproperty=CAIVAAAAAB0pXA8%2B&detail=510739077835963042",
+        "img": "img/xm1014/stattraktm-xm1014-xoxo.png",
+        "skinSlug": "stattraktm-xm1014-xoxo",
+        "detailImg": "screens/xm1014/stattraktm-xm1014-xoxo.png"
+      }
+    ]
+  },
+  {
+    "type": "Shotguns",
+    "weapon": "MAG-7",
+    "weaponSlug": "mag-7",
+    "skins": [
+      {
+        "name": "StatTrak™ MAG-7 | Justice",
+        "price": 30.29,
+        "pattern": 539,
+        "wear": 0.996386647,
+        "wearDisplay": "0,996386647",
+        "nametag": null,
+        "desc": "Exterior: Battle-Scarred\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nThis item tracks Confirmed Kills.\n \nThe CT-exclusive Mag-7 delivers a devastating amount of damage at close range. Its rapid magazine-style reloads make it a great tactical choice. It has been custom painted using the Justice tarot card as inspiration.\n\nJudgement for all\n \nThe Prisma 2 Collection",
+        "exterior": "Battle-Scarred",
+        "link": "https://steamcommunity.com/market/listings/730/G181B20B4073004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=0&detail=540021734705730996",
+        "img": "img/mag-7/stattraktm-mag-7-justice.png",
+        "skinSlug": "stattraktm-mag-7-justice",
+        "detailImg": "screens/mag-7/stattraktm-mag-7-justice.png"
+      }
+    ]
+  },
+  {
+    "type": "Shotguns",
+    "weapon": "Sawed-Off",
+    "weaponSlug": "sawed-off",
+    "skins": [
+      {
+        "name": "Sawed-Off | Wasteland Princess",
+        "price": 95.55,
+        "pattern": 508,
+        "wear": 0.054083444,
+        "wearDisplay": "0,054083444",
+        "nametag": null,
+        "desc": "Exterior: Factory New\n \nThe classic Sawed-Off deals very heavy close-range damage, but with its low accuracy, high spread and slow rate of fire, you'd better kill what you hit. Someone has been keeping track of kills on the barrel.\n\nA perfect gift for the sociopath that has everything...\n \nThe Glove Collection",
+        "exterior": "Factory New",
+        "link": "https://steamcommunity.com/market/listings/730/G181D20FE043004?price_max=440000&price_currency=18&appid=730&sort=1&dir=0&propertyid=2&assetproperty=CAIVAAAAAB0pXI89&detail=535513062118607189",
+        "img": "img/sawed-off/sawed-off-wasteland-princess.png",
+        "skinSlug": "sawed-off-wasteland-princess",
+        "detailImg": "screens/sawed-off/sawed-off-wasteland-princess.png"
+      }
+    ]
+  },
+  {
+    "type": "Heavy",
+    "weapon": "M249",
+    "weaponSlug": "m249",
+    "skins": [
+      {
+        "name": "M249 | Blizzard Marbleized",
+        "price": 93.23,
+        "pattern": 271,
+        "wear": 0.128045306,
+        "wearDisplay": "0,128045306",
+        "nametag": null,
+        "desc": "Exterior: Minimal Wear\n \nA strong open-area LMG, the M249 is the perfect choice for players willing to trade a slow fire rate for increased accuracy and a high ammo capacity. It has been painted in a marbleized pattern.\n \nThe Office Collection",
+        "exterior": "Minimal Wear",
+        "link": "https://steamcommunity.com/market/listings/730/G180E204B3004?price_max=440000&price_currency=18&appid=730&sort=1&dir=0&propertyid=2&assetproperty=CAIVAAAAAB2amRk%2B&detail=633457474125589242",
+        "img": "img/m249/m249-blizzard-marbleized.png",
+        "skinSlug": "m249-blizzard-marbleized",
+        "detailImg": "screens/m249/m249-blizzard-marbleized.png"
+      }
+    ]
+  },
+  {
+    "type": "Heavy",
+    "weapon": "Negev",
+    "weaponSlug": "negev",
+    "skins": [
+      {
+        "name": "StatTrak™ Negev | Power Loader",
+        "price": 73.77,
+        "pattern": 673,
+        "wear": 0.080299526,
+        "wearDisplay": "0,080299526",
+        "nametag": null,
+        "desc": "Exterior: Minimal Wear\n \nThis item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.\n \nStatTrak™ Confirmed Kills: 126\n*Stats for this item will reset when used in Steam Trading or Community Market\n \nThe Negev is a beast that can keep the enemy at bay with its pin-point supressive fire, provided you have the luxury of time to gain control over it. It has been custom painted with a hydrographic reminiscent of heavy machinery.\n\nFeared by Queens. Beloved by Bishops.\n \nThe Revolver Case Collection",
+        "exterior": "Minimal Wear",
+        "link": "https://steamcommunity.com/market/listings/730/G181C2082043004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=1&dir=0&propertyid=2&assetproperty=CAIVAAAAAB2amRk%2B&detail=529886192539973343",
+        "img": "img/negev/stattraktm-negev-power-loader.png",
+        "skinSlug": "stattraktm-negev-power-loader",
+        "detailImg": "screens/negev/stattraktm-negev-power-loader.png"
+      }
+    ]
+  },
+  {
+    "type": "Heavy",
+    "weapon": "Zeus x27",
+    "weaponSlug": "zeus-x27",
+    "skins": [
+      {
+        "name": "Souvenir Zeus x27 | Dragon Snore",
+        "price": 44.25,
+        "pattern": 400,
+        "wear": 0.087631576,
+        "wearDisplay": "0,087631576",
+        "nametag": null,
+        "desc": "Exterior: Minimal Wear\n \nThis item commemorates the StarLadder Budapest 2025 CS2 Major Championship.\n \nIt was dropped during the Grand Final match between FaZe Clan and Vitality.\n \nPerfect for close-range ambushes and enclosed area encounters, the rechargeable x27 Zeus is capable of incapacitating an enemy in a single hit. A dragon wraps around this lighthearted, custom painted x27.\n\nFrom the highest room of the tallest tower\n \nThe Overpass 2024 Collection",
+        "exterior": "Minimal Wear",
+        "link": "https://steamcommunity.com/market/listings/730/G181F20A4023004?price_max=440000&price_currency=18&accessory_CSGO_Tool_Sticker=%24any%24&appid=730&sort=0&dir=0&assetproperty=CAIVAAAAAB2amRk%2B&detail=525385951009067471",
+        "img": "img/zeus-x27/souvenir-zeus-x27-dragon-snore.png",
+        "skinSlug": "souvenir-zeus-x27-dragon-snore",
+        "detailImg": "screens/zeus-x27/souvenir-zeus-x27-dragon-snore.png"
+      }
+    ]
+  },
+  {
+    "type": "Knifes",
+    "weapon": "Kukri",
+    "weaponSlug": "kukri",
+    "skins": [
+      {
+        "name": "★ Kukri Knife | Blue Steel",
+        "price": 95.08,
+        "pattern": 169,
+        "wear": 0.423122883,
+        "wearDisplay": "0,423122883",
+        "nametag": "Nighty night",
+        "desc": "Exterior: Well-Worn\n \nUsed in traditional rituals, such as weddings or stabbings. It has been cold blued.\n\nThis is the malbec of weapon design - Booth, Arms Dealer",
+        "exterior": "Well-Worn",
+        "link": "https://steamcommunity.com/market/listings/730/G188E04202A3003?price_max=445000&price_currency=18&appid=730&sort=1&dir=0&propertyid=2&detail=537770568639137250",
+        "img": "img/kukri/kukri-knife-blue-steel.png",
+        "skinSlug": "kukri-knife-blue-steel",
+        "detailImg": "screens/kukri/kukri-knife-blue-steel.png"
+      }
+    ]
+  },
+  {
+    "type": "Gloves",
+    "weapon": "Moto",
+    "weaponSlug": "moto",
+    "skins": [
+      {
+        "name": "★ Moto Gloves | POW!",
+        "price": 97.52,
+        "pattern": 134,
+        "wear": 0.433499128,
+        "wearDisplay": "0,433499128",
+        "nametag": null,
+        "desc": "Exterior: Well-Worn\n \nThese bulky hard knuckled gloves can protect the wearers hands from road rash at 60 mph. This pair has been covered in brightly colored comic book onomatopoeia.",
+        "exterior": "Well-Worn",
+        "link": "https://steamcommunity.com/market/listings/730/G18A92720C14E3003?price_max=445000&price_currency=18&appid=730&sort=1&dir=0&propertyid=2&detail=549029567704471416",
+        "img": "img/moto/moto-gloves-pow.png",
+        "skinSlug": "moto-gloves-pow",
+        "detailImg": "screens/moto/moto-gloves-pow.png"
+      }
+    ]
+  }
+]
