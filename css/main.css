@@ -102,11 +102,36 @@ input,select{font-family:inherit;}
   transition:border-color .18s ease,transform .18s ease;
   opacity:0;transform:translateY(10px);animation:cardIn .4s ease forwards;
 }
+.rank-badge{
+  position:absolute;top:10px;left:10px;z-index:6;
+  background:var(--brass);color:#1a1408;font-family:var(--font-mono);font-weight:600;
+  font-size:11px;padding:3px 8px;border-radius:4px;letter-spacing:0.5px;
+}
+.like-count{font-size:11px;color:var(--rust);font-family:var(--font-mono);display:flex;align-items:center;gap:4px;}
+.community-intro{margin-bottom:28px;text-align:center;padding-top:8px;}
+.community-eyebrow{font-family:var(--font-mono);font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--brass);}
+.community-title{font-family:var(--font-display);font-weight:400;font-size:32px;margin-top:6px;}
+.community-sub{color:var(--text-muted);font-size:14px;margin-top:8px;max-width:440px;margin-left:auto;margin-right:auto;}
 @keyframes cardIn{to{opacity:1;transform:translateY(0);}}
 .card:hover{border-color:var(--brass-dim);transform:translateY(-3px);}
 .card-weapon-name{
   font-family:var(--font-display);font-weight:400;font-size:20px;letter-spacing:0.4px;
-  color:var(--text);padding:12px 12px 0;line-height:1.1;
+  color:var(--text);line-height:1.1;
+}
+.card-top-row{
+  display:flex;align-items:flex-start;justify-content:space-between;gap:8px;padding:12px 12px 0;
+}
+.wishlist-btn{
+  background:transparent;border:none;color:var(--text-faint);padding:2px;flex:0 0 auto;
+  display:flex;align-items:center;justify-content:center;transition:color .15s ease,transform .12s ease;
+}
+.wishlist-btn svg{width:18px;height:18px;}
+.wishlist-btn:hover{color:var(--rust);transform:scale(1.08);}
+.wishlist-btn.active{color:var(--rust);}
+.wishlist-btn.active svg{fill:var(--rust);}
+.card-exterior{
+  font-family:var(--font-mono);font-size:10.5px;font-weight:600;letter-spacing:0.5px;
+  color:var(--wear-red);border:1px solid currentColor;border-radius:3px;padding:1px 5px;
 }
 .thumb-wrap{
   position:relative;aspect-ratio:4/3;margin:8px 12px 0;background:var(--bg-elevated);

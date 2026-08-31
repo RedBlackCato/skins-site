@@ -100,13 +100,104 @@ function renderGrid(){
   attachCardHandlers();
 }
 
+function exteriorCode(exterior){
+  const map = {
+    'Factory New': 'FN',
+    'Minimal Wear': 'MW',
+    'Field-Tested': 'FT',
+    'Well-Worn': 'WW',
+    'Battle-Scarred': 'BS'
+  };
+  return map[exterior] || '';
+}
+
+function exteriorColor(exterior){
+  const map = {
+    'Factory New': 'var(--wear-green)',
+    'Minimal Wear': 'var(--wear-green)',
+    'Field-Tested': 'var(--wear-yellow)',
+    'Well-Worn': 'var(--wear-red)',
+    'Battle-Scarred': 'var(--wear-red)'
+  };
+  return map[exterior] || 'var(--text-faint)';
+}
+
+const WISHLIST_KEY = 'arsenal_wishlist_v1';
+function loadWishlist(){
+  try{
+    const raw = localStorage.getItem(WISHLIST_KEY);
+    return raw ? new Set(JSON.parse(raw)) : new Set();
+  }catch(e){
+    return new Set();
+  }
+}
+function saveWishlist(){
+  try{
+    localStorage.setItem(WISHLIST_KEY, JSON.stringify([...wishlist]));
+  }catch(e){ /* storage unavailable, ignore */ }
+}
+const wishlist = loadWishlist();
+
+/*
+  COMMUNITY LIKES (shared across every visitor):
+  This uses countapi.mileshilliard.com — a free, no-signup counter API.
+  IMPORTANT: this service has no per-site namespaces, all keys live in one
+  shared public space. SITE_ID below makes your keys unique so they don't
+  collide with anyone else's counters. Change it to something only you
+  would use (e.g. your GitHub username + repo name) BEFORE you rely on
+  real numbers, otherwise you might be sharing a counter with a stranger.
+*/
+const SITE_ID = 'arsenal-cs2-showcase-redblackcato-skins';
+const COUNTAPI_BASE = 'https://countapi.mileshilliard.com/api/v1';
+
+function communityKey(weaponSlug){
+  return `${SITE_ID}_${weaponSlug}`;
+}
+
+async function bumpCommunityLike(weaponSlug, delta){
+  const key = communityKey(weaponSlug);
+  try{
+    if(delta > 0){
+      await fetch(`${COUNTAPI_BASE}/hit/${encodeURIComponent(key)}`);
+    } else {
+      const getRes = await fetch(`${COUNTAPI_BASE}/get/${encodeURIComponent(key)}`);
+      let current = 0;
+      if(getRes.ok){
+        const data = await getRes.json();
+        current = parseInt(data.value, 10) || 0;
+      }
+      const next = Math.max(0, current - 1);
+      await fetch(`${COUNTAPI_BASE}/set/${encodeURIComponent(key)}?value=${next}`);
+    }
+  }catch(e){
+    console.warn('Community like sync failed (offline or API unreachable):', e);
+  }
+}
+
+async function fetchCommunityCount(weaponSlug){
+  const key = communityKey(weaponSlug);
+  try{
+    const res = await fetch(`${COUNTAPI_BASE}/get/${encodeURIComponent(key)}`);
+    if(!res.ok) return 0;
+    const data = await res.json();
+    return parseInt(data.value, 10) || 0;
+  }catch(e){
+    return 0;
+  }
+}
+
 function renderCard(group){
   const skin = bestSkin(group);
   const idx = SKINS_DATA.indexOf(group);
   const wearPos = skin.wear != null ? wearPercent(skin.wear) : null;
   return `
     <div class="card" data-idx="${idx}">
-      <div class="card-weapon-name">${escapeHtml(group.weapon)}</div>
+      <div class="card-top-row">
+        <div class="card-weapon-name">${escapeHtml(group.weapon)}</div>
+        <button class="wishlist-btn${wishlist.has(group.weaponSlug) ? ' active' : ''}" data-wishlist-key="${escapeHtml(group.weaponSlug)}" aria-label="Add to wishlist">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+        </button>
+      </div>
       <div class="thumb-wrap">
         <img src="${escapeHtml(skin.img)}" alt="${escapeHtml(skin.name)}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
         <div class="thumb-placeholder" style="display:none;">
@@ -118,6 +209,7 @@ function renderCard(group){
         <div class="card-skin-name">${escapeHtml(skin.name)}</div>
         <div class="card-footer">
           <span class="card-price">${formatPrice(skin.price)}</span>
+          ${skin.exterior ? '<span class="card-exterior" style="color:' + exteriorColor(skin.exterior) + '">' + escapeHtml(exteriorCode(skin.exterior)) + '</span>' : ''}
           ${group.skins.length > 1 ? '<span class="card-count">' + group.skins.length + ' skins</span>' : ''}
         </div>
         ${wearPos != null ? '<div class="wear-bar-mini"><i style="left:' + wearPos + '%"></i></div>' : ''}
@@ -136,6 +228,22 @@ function attachCardHandlers(){
     card.addEventListener('click', () => {
       const idx = parseInt(card.dataset.idx, 10);
       openModal(idx, 0);
+    });
+  });
+  document.querySelectorAll('.wishlist-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const key = btn.dataset.wishlistKey;
+      if(wishlist.has(key)){
+        wishlist.delete(key);
+        btn.classList.remove('active');
+        bumpCommunityLike(key, -1);
+      } else {
+        wishlist.add(key);
+        btn.classList.add('active');
+        bumpCommunityLike(key, 1);
+      }
+      saveWishlist();
     });
   });
 }
@@ -285,9 +393,91 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     const tab = btn.dataset.tab;
     document.getElementById('under100View').style.display = tab === 'under100' ? 'block' : 'none';
     document.getElementById('bundleView').style.display = tab === 'bundle' ? 'block' : 'none';
+    document.getElementById('communityView').style.display = tab === 'community' ? 'block' : 'none';
     document.getElementById('controlsBar').style.display = tab === 'under100' ? 'flex' : 'none';
+    if(tab === 'community') loadCommunityTab();
   });
 });
+
+async function loadCommunityTab(){
+  const grid = document.getElementById('communityGrid');
+  grid.innerHTML = '<div class="empty-state">Loading community likes...</div>';
+
+  const counted = await Promise.all(
+    SKINS_DATA.map(async (group) => ({
+      group,
+      count: await fetchCommunityCount(group.weaponSlug)
+    }))
+  );
+
+  // Group by count, walk from highest to lowest, fill to exactly 5,
+  // picking randomly within the bucket that would otherwise overflow.
+  const byCount = new Map();
+  for(const item of counted){
+    if(!byCount.has(item.count)) byCount.set(item.count, []);
+    byCount.get(item.count).push(item);
+  }
+  const countsDesc = [...byCount.keys()].sort((a, b) => b - a);
+
+  const top5 = [];
+  for(const c of countsDesc){
+    const bucket = byCount.get(c);
+    const remaining = 5 - top5.length;
+    if(remaining <= 0) break;
+    if(bucket.length <= remaining){
+      top5.push(...bucket);
+    } else {
+      const shuffled = [...bucket].sort(() => Math.random() - 0.5);
+      top5.push(...shuffled.slice(0, remaining));
+    }
+  }
+
+  if(top5.length === 0){
+    grid.innerHTML = '<div class="empty-state">No community likes yet — be the first to add a heart on the "Best Under $100" tab!</div>';
+    return;
+  }
+
+  grid.innerHTML = '<div class="grid">' + top5.map((item, rank) => renderCommunityCard(item, rank)).join('') + '</div>';
+  attachCardHandlers();
+}
+
+function renderCommunityCard(item, rank){
+  const { group, count } = item;
+  const idx = SKINS_DATA.indexOf(group);
+  const skin = bestSkin(group);
+  const wearPos = skin.wear != null ? wearPercent(skin.wear) : null;
+  return `
+    <div class="card" data-idx="${idx}">
+      <div class="rank-badge">#${rank + 1}</div>
+      <div class="card-top-row">
+        <div class="card-weapon-name">${escapeHtml(group.weapon)}</div>
+        <button class="wishlist-btn${wishlist.has(group.weaponSlug) ? ' active' : ''}" data-wishlist-key="${escapeHtml(group.weaponSlug)}" aria-label="Add to wishlist">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+        </button>
+      </div>
+      <div class="thumb-wrap">
+        <img src="${escapeHtml(skin.img)}" alt="${escapeHtml(skin.name)}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="thumb-placeholder" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5"/></svg>
+          <span>Photo not added</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-skin-name">${escapeHtml(skin.name)}</div>
+        <div class="card-footer">
+          <span class="card-price">${formatPrice(skin.price)}</span>
+          <span class="like-count">${count} ${count === 1 ? 'like' : 'likes'}</span>
+        </div>
+        ${wearPos != null ? '<div class="wear-bar-mini"><i style="left:' + wearPos + '%"></i></div>' : ''}
+      </div>
+      <div class="card-tooltip">
+        <div class="tt-row"><span class="tt-label">Price</span><span class="tt-val">${formatPrice(skin.price)}</span></div>
+        <div class="tt-row"><span class="tt-label">Pattern</span><span class="tt-val">${escapeHtml(skin.pattern)}</span></div>
+        <div class="tt-row"><span class="tt-label">Wear</span><span class="tt-val">${escapeHtml(skin.wearDisplay)}</span></div>
+      </div>
+    </div>
+  `;
+}
 
 async function loadData(){
   const container = document.getElementById('under100View');
