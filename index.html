@@ -13,19 +13,75 @@
 
 <header class="site-header">
   <div class="header-inner">
-    <div class="brand-row">
-      <div>
-        <div class="brand">ARSEN<span>AL</span></div>
-        <div class="brand-tagline">CS2 SKIN SHOWCASE — CURATED LOADOUT</div>
+    <div class="header-top">
+      <a class="brand-logo" href="#" aria-label="Arsenal — home">
+        <svg class="brand-icon" viewBox="0 0 44 26" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true">
+          <rect x="1" y="12" width="20" height="4"/>
+          <rect x="16" y="7" width="16" height="6"/>
+          <rect x="30" y="4" width="4" height="3"/>
+          <rect x="19" y="16" width="3" height="9"/>
+          <polygon points="22,16 32,16 29,25 20,25"/>
+          <rect x="22.5" y="18" width="2" height="5"/>
+        </svg>
+        <span class="brand-word">ARSEN<span>AL</span></span>
+      </a>
+
+      <nav class="tabs" aria-label="Primary">
+        <button class="tab-btn active" data-tab="under100">Best Under $100</button>
+        <button class="tab-btn" data-tab="bundle">$100 Bundle</button>
+        <button class="tab-btn" data-tab="community">Community Favorites</button>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="wishlistCountBtn" aria-label="Wishlisted skins" title="Your wishlist">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+          <span class="count-badge" id="wishlistCountBadge">0</span>
+        </button>
+        <div class="balance-pill" title="Demo balance — no real payments on this site">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 10h20"/><circle cx="17" cy="14.5" r="1.4" fill="currentColor" stroke="none"/></svg>
+          <span>$100.00</span>
+        </div>
       </div>
-    </div>
-    <div class="tabs">
-      <button class="tab-btn active" data-tab="under100">Best Under $100</button>
-      <button class="tab-btn" data-tab="bundle">$100 Bundle</button>
-      <button class="tab-btn" data-tab="community">Community Favorites</button>
     </div>
   </div>
 </header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-eyebrow">CS2 SKIN SHOWCASE</div>
+      <h1 class="hero-title">CURATED LOADOUTS.<br>MAXIMUM <em>IMPACT.</em></h1>
+      <p class="hero-sub">Handpicked CS2 skins under $100. Stylish. Affordable. Game‑ready.</p>
+      <div class="hero-ctas">
+        <button class="hero-btn primary" data-tab="under100">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41 11 3.83A2 2 0 0 0 9.59 3.24L4 3a1 1 0 0 0-1 1l.24 5.59a2 2 0 0 0 .59 1.41l9.58 9.59a2 2 0 0 0 2.83 0l4.35-4.35a2 2 0 0 0 0-2.83z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>
+          Best Under $100
+        </button>
+        <button class="hero-btn secondary" data-tab="bundle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.91 8.84 8.56 21.19a1.93 1.93 0 0 1-2.73 0L3.56 18.9a1.93 1.93 0 0 1 0-2.73L15.91 3.82a2 2 0 0 1 1.42-.59h3.42a1 1 0 0 1 1 1v3.42a2 2 0 0 1-.59 1.42z"/></svg>
+          $100 Bundle
+        </button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-pill">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 12L2 9z"/></svg>
+          100+ skins
+        </div>
+        <div class="stat-pill">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M9 14 6 22l6-4 6 4-3-8"/></svg>
+          Carefully curated
+        </div>
+        <div class="stat-pill">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          Budget friendly
+        </div>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <img src="img/hero-ak47.png" alt="Featured CS2 rifle skin">
+    </div>
+  </div>
+</section>
 
 <div class="controls-bar" id="controlsBar">
   <div class="search-wrap">

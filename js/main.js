@@ -138,6 +138,12 @@ function saveWishlist(){
 }
 const wishlist = loadWishlist();
 
+function updateWishlistBadge(){
+  const el = document.getElementById('wishlistCountBadge');
+  if(el) el.textContent = wishlist.size;
+}
+updateWishlistBadge();
+
 /*
   COMMUNITY LIKES (shared across every visitor):
   This uses countapi.mileshilliard.com — a free, no-signup counter API.
@@ -147,7 +153,7 @@ const wishlist = loadWishlist();
   would use (e.g. your GitHub username + repo name) BEFORE you rely on
   real numbers, otherwise you might be sharing a counter with a stranger.
 */
-const SITE_ID = 'arsenal-cs2-showcase-redblackcato-skins';
+const SITE_ID = 'arsenal-cs2-showcase-CHANGE-ME';
 const COUNTAPI_BASE = 'https://countapi.mileshilliard.com/api/v1';
 
 function communityKey(weaponSlug){
@@ -244,6 +250,7 @@ function attachCardHandlers(){
         bumpCommunityLike(key, 1);
       }
       saveWishlist();
+      updateWishlistBadge();
     });
   });
 }
@@ -386,17 +393,19 @@ document.getElementById('dirBtn').addEventListener('click', (e) => {
   renderGrid();
 });
 
-document.querySelectorAll('.tab-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    const tab = btn.dataset.tab;
-    document.getElementById('under100View').style.display = tab === 'under100' ? 'block' : 'none';
-    document.getElementById('bundleView').style.display = tab === 'bundle' ? 'block' : 'none';
-    document.getElementById('communityView').style.display = tab === 'community' ? 'block' : 'none';
-    document.getElementById('controlsBar').style.display = tab === 'under100' ? 'flex' : 'none';
-    if(tab === 'community') loadCommunityTab();
-  });
+function activateTab(tab){
+  document.querySelectorAll('.tab-btn[data-tab]').forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
+  document.getElementById('under100View').style.display = tab === 'under100' ? 'block' : 'none';
+  document.getElementById('bundleView').style.display = tab === 'bundle' ? 'block' : 'none';
+  document.getElementById('communityView').style.display = tab === 'community' ? 'block' : 'none';
+  document.getElementById('controlsBar').style.display = tab === 'under100' ? 'flex' : 'none';
+  if(tab === 'community') loadCommunityTab();
+}
+
+// Both the header nav (.tab-btn) and the hero CTA buttons (.hero-btn) carry
+// a matching data-tab attribute, so one listener drives all of them.
+document.querySelectorAll('[data-tab]').forEach(btn => {
+  btn.addEventListener('click', () => activateTab(btn.dataset.tab));
 });
 
 async function loadCommunityTab(){
@@ -448,7 +457,6 @@ function renderCommunityCard(item, rank){
   const wearPos = skin.wear != null ? wearPercent(skin.wear) : null;
   return `
     <div class="card" data-idx="${idx}">
-      <div class="rank-badge">#${rank + 1}</div>
       <div class="card-top-row">
         <div class="card-weapon-name">${escapeHtml(group.weapon)}</div>
         <button class="wishlist-btn${wishlist.has(group.weaponSlug) ? ' active' : ''}" data-wishlist-key="${escapeHtml(group.weaponSlug)}" aria-label="Add to wishlist">
@@ -456,6 +464,7 @@ function renderCommunityCard(item, rank){
         </button>
       </div>
       <div class="thumb-wrap">
+        <div class="rank-badge">#${rank + 1}</div>
         <img src="${escapeHtml(skin.img)}" alt="${escapeHtml(skin.name)}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
         <div class="thumb-placeholder" style="display:none;">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5"/></svg>
